@@ -44,6 +44,8 @@
 
 Write-Output -InputObject "HA NVA timer trigger function executed at:$(Get-Date)"
 
+param($myTimer)
+
 #--------------------------------------------------------------------------
 # Set firewall monitoring variables here
 #--------------------------------------------------------------------------
